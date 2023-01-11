@@ -5,3 +5,7 @@ Flying a helicopter using css
 Netflix logo
 
 ![Netflix logo](https://user-images.githubusercontent.com/60463836/211738998-d1a8d1ca-5c98-46ea-8432-cf80a43804de.PNG)
+
+Instagram logo
+
+![instagram](https://user-images.githubusercontent.com/60463836/211813094-7d0da160-a317-4de7-9e1f-59c9441f3b51.PNG)
