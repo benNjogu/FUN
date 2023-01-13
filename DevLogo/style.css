@@ -4,4 +4,62 @@ body {
     min-height: 100vh;
 }
 
+.box {
+    width: 200px;
+    aspect-ratio: 1;
+}
 
+h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 8rem;
+    display: inline-block;
+    font-family: arial;
+    font-size: 10rem;
+    background: repeating-linear-gradient(
+        135deg,
+        #55C2AF 0%,
+        #55C2AF 6%,
+        #F2F196 6%,
+        #F2F196 12%,
+        #FEE28A 12%,
+        #FEE28A 18%,
+        #F58F8E 18%,
+        #F58F8E 24%,
+        #F7B3D0 24%,
+        #F7B3D0 30%,
+        #88AEDC 30%,
+        #88AEDC 36%,
+    );
+    background: -webkit-repeating-linear-gradient(
+        135deg,
+        #55C2AF 0%,
+        #55C2AF 6%,
+        #F2F196 6%,
+        #F2F196 12%,
+        #FEE28A 12%,
+        #FEE28A 18%,
+        #F58F8E 18%,
+        #F58F8E 24%,
+        #F7B3D0 24%,
+        #F7B3D0 30%,
+        #88AEDC 30%,
+        #88AEDC 36%,
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+    background-image: linear-gradient(red 0%, blue 100%);
+}
+
+.gradient-hard {
+    background-image: linear-gradient(red 0%, red 50%, blue 50%, blue 100%);
+}
+
+.gradient-hard-repeat {
+    background-image: repeating-linear-gradient(
+        red 0%, red 5%, blue 5%, blue 10%
+    );
+}
