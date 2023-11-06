@@ -120,3 +120,24 @@ const isPrime = (num) => {
 
 console.log('prime', isPrime(2));
 
+//Finding the largest element in a nested array
+let nested_array = [
+  [1, 2, 3],
+  [2, 8, 4],
+  [4, 5, 6],
+];
+
+const findLargestInNested = (array) => {
+  let largest_num = 0;
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array[i].length; j++) {
+      if (array[i][j] > largest_num) {
+        largest_num = array[i][j];
+      }
+    }
+  }
+
+  return largest_num;
+};
+
+console.log('largest', findLargestInNested(nested_array));
