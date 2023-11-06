@@ -76,3 +76,21 @@ console.log(isValid('first', '[()]{}{[()()]()}'));
 console.log(isValid('second', '[()]{}'));
 
 //6.0 Take an array and return a new array with only the even numbers
+// my way
+let array = [14, 3, 7, 8, 9, 11, 98, 7, 112];
+
+const evenArray = (arr) => {
+  let evenNums = [];
+  for (let i = 0; i < array.length; i++) {
+    if (arr[i] % 2 === 0) evenNums.push(arr[i]);
+  }
+
+  return evenNums;
+};
+
+// their way
+const _evenArray = (arr) => {
+  return arr.filter((i) => i % 2 === 0);
+};
+
+console.log('even array: ', _evenArray(array));
